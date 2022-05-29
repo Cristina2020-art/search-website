@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML5 Search Input Type</title>
+<script>
+    function getValue() {
+        var term = document.getElementById("mysearch").value;
+        alert(term);
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="mysearch">Search Website:</label>
+        <input type="search" id="mysearch" placeholder="Type something...">
+        <button type="button" onclick="getValue();">Get Value</button>
+    </form>
+</body>
+</html>
